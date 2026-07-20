@@ -158981,11 +158981,12 @@
     "confidence": "high"
    },
    "TH": {
-    "type": "visa-free",
-    "days": 60,
-    "source": "wikipedia",
+    "type": "e-visa",
+    "days": null,
+    "source": "manual-correction",
     "checked": "2026-07-20",
-    "confidence": "high"
+    "confidence": "high",
+    "note": "Thailand reverted its 2024 visa-exemption expansion on 2026-05-19; Morocco dropped from the exempt lists, e-visa required from 2026-06-07. Sources: Thai MFA lists; Royal Thai Embassy Rabat advisory."
    },
    "TJ": {
     "type": "visa-free",
