@@ -1,0 +1,38 @@
+name: refresh
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild dataset
+        run: python3 build.py
+
+      # Data changes land as a PR, never a silent push: every rule change
+      # gets a human look (and disputes especially need one).
+      - name: Open PR if the data changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "data: weekly refresh"
+          title: "Weekly data refresh"
+          body: |
+            Automated rebuild from Wikipedia + passport-index.
+            Review the diff before merging — pay attention to cells whose
+            `confidence` changed to `disputed`.
+          branch: auto/refresh
+          add-paths: data/
+          delete-branch: true

@@ -1,0 +1,4 @@
+# The dataset is the product; don't let generated data drown the language
+# stats, and collapse its diffs in PRs (the weekly refresh rewrites it).
+data/*.csv linguist-generated
+data/*.json linguist-generated
