@@ -181217,11 +181217,12 @@
     "confidence": "high"
    },
    "BR": {
-    "type": "visa-free",
-    "days": 90,
-    "source": "wikipedia",
+    "type": "e-visa",
+    "days": null,
+    "source": "manual-correction",
     "checked": "2026-07-20",
-    "confidence": "high"
+    "confidence": "high",
+    "note": "Brazil reciprocal e-visa for Mexican nationals, effective 2026-02-05 (mirrors BR e-visa for US/CA/AU). Sources: Wikipedia 'Visa policy of Brazil'; Fragomen 2026 advisory."
    },
    "BS": {
     "type": "visa-free",

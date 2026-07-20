@@ -24573,7 +24573,7 @@ MX,BI,visa-on-arrival,30,high
 MX,BJ,e-visa,30,high
 MX,BN,visa-required,,high
 MX,BO,visa-free,180,high
-MX,BR,visa-free,90,high
+MX,BR,e-visa,,high
 MX,BS,visa-free,90,high
 MX,BT,e-visa,90,high
 MX,BW,visa-free,90,high
