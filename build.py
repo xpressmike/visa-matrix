@@ -132,6 +132,30 @@ def build():
         if cells:
             matrix[nat] = dict(sorted(cells.items()))
 
+    # Manual corrections — applied AFTER the scrape so a confirmed policy change
+    # the upstream sources still lag (e.g. a reversion Wikipedia hasn't caught)
+    # survives every weekly rebuild instead of being reverted. Each override
+    # wins over both sources and is stamped source=manual-correction with a note.
+    ov_path = DATA / "overrides.json"
+    if ov_path.exists():
+        overrides = json.load(open(ov_path)).get("overrides", [])
+        applied = 0
+        for o in overrides:
+            nat, dest = o.get("nat"), o.get("dest")
+            if not nat or not dest or nat not in matrix:
+                continue
+            matrix[nat][dest] = {
+                "type": o["type"],
+                "days": o.get("days"),
+                "source": "manual-correction",
+                "checked": today,
+                "confidence": "high",
+                "note": o.get("note", ""),
+            }
+            matrix[nat] = dict(sorted(matrix[nat].items()))
+            applied += 1
+        print(f"overrides applied: {applied}/{len(overrides)}")
+
     dataset = {
         "meta": {
             "name": "visa-matrix",

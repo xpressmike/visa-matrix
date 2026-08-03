@@ -1,0 +1,21 @@
+{
+  "_comment": "Manual corrections applied AFTER the scrape in build.py, so a confirmed policy change the upstream sources still lag survives every weekly rebuild. Each entry wins over Wikipedia/passport-index and is stamped source=manual-correction with a note. Keep the source + effective date; retire an entry once Wikipedia catches up (the rebuild will then agree on its own).",
+  "overrides": [
+    {
+      "nat": "MX",
+      "dest": "BR",
+      "type": "e-visa",
+      "days": null,
+      "since": "2026-02-05",
+      "note": "Brazil reciprocal e-visa for Mexican nationals, effective 2026-02-05 (mirrors the BR e-visa already required from US/CA/AU). Sources: Wikipedia 'Visa policy of Brazil'; Fragomen 2026 advisory."
+    },
+    {
+      "nat": "MA",
+      "dest": "TH",
+      "type": "e-visa",
+      "days": null,
+      "since": "2026-06-07",
+      "note": "Thailand reverted its 2024 visa-exemption expansion on 2026-05-19; Morocco dropped from the exempt lists, e-visa required from 2026-06-07. Sources: Thai MFA lists; Royal Thai Embassy Rabat advisory."
+    }
+  ]
+}
