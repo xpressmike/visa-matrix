@@ -867,7 +867,7 @@ AL,HR,visa-free,90,high
 AL,HT,visa-free,90,high
 AL,HU,visa-free,90,high
 AL,ID,visa-on-arrival,30,high
-AL,IE,visa-required,,high
+AL,IE,e-visa,,disputed
 AL,IL,eta,90,high
 AL,IN,e-visa,30,high
 AL,IQ,e-visa,30,high
@@ -898,7 +898,7 @@ AL,LT,visa-free,90,high
 AL,LU,visa-free,90,high
 AL,LV,visa-free,90,high
 AL,LY,e-visa,,high
-AL,MA,visa-required,,high
+AL,MA,visa-free,90,disputed
 AL,MC,visa-free,90,high
 AL,MD,visa-free,90,high
 AL,ME,visa-free,90,high
@@ -1014,7 +1014,7 @@ AM,BR,visa-free,90,high
 AM,BS,visa-free,90,high
 AM,BT,e-visa,,high
 AM,BW,e-visa,90,high
-AM,BY,visa-free,,high
+AM,BY,visa-free,90,high
 AM,BZ,visa-required,,high
 AM,CA,visa-required,,high
 AM,CD,e-visa,7,high
@@ -1843,7 +1843,7 @@ AU,GA,e-visa,90,high
 AU,GB,eta,180,high
 AU,GD,visa-free,90,high
 AU,GE,visa-free,365,high
-AU,GH,visa-required,,high
+AU,GH,e-visa,60,disputed
 AU,GM,visa-free,90,high
 AU,GN,e-visa,90,high
 AU,GQ,e-visa,30,high
@@ -2612,7 +2612,7 @@ BD,CN,visa-required,,high
 BD,CO,e-visa,,medium
 BD,CR,visa-required,,high
 BD,CU,visa-required,,high
-BD,CV,visa-on-arrival,,high
+BD,CV,visa-required,,disputed
 BD,CY,visa-required,,high
 BD,CZ,visa-required,,high
 BD,DE,visa-required,,high
@@ -2664,7 +2664,7 @@ BD,KG,e-visa,60,high
 BD,KH,visa-on-arrival,,high
 BD,KI,visa-free,90,high
 BD,KM,visa-on-arrival,45,high
-BD,KN,visa-free,90,high
+BD,KN,eta,90,high
 BD,KP,visa-required,,high
 BD,KR,visa-required,,disputed
 BD,KW,visa-required,,high
@@ -2724,7 +2724,7 @@ BD,RO,visa-required,,high
 BD,RS,visa-required,,high
 BD,RU,visa-required,,high
 BD,RW,visa-free,30,high
-BD,SA,visa-free,,disputed
+BD,SA,visa-required,,high
 BD,SB,visa-required,,high
 BD,SC,visa-free,90,medium
 BD,SD,refused,,disputed
@@ -5580,7 +5580,7 @@ CA,CL,visa-free,90,high
 CA,CM,e-visa,,high
 CA,CN,visa-free,30,disputed
 CA,CO,visa-free,90,high
-CA,CR,visa-free,90,high
+CA,CR,visa-free,180,high
 CA,CU,e-visa,90,high
 CA,CV,visa-free,30,high
 CA,CY,visa-free,90,high
@@ -5606,7 +5606,7 @@ CA,GB,eta,180,high
 CA,GD,visa-free,90,high
 CA,GE,visa-free,365,high
 CA,GH,e-visa,60,disputed
-CA,GM,visa-free,90,high
+CA,GM,visa-free,30,high
 CA,GN,e-visa,90,high
 CA,GQ,e-visa,,high
 CA,GR,visa-free,90,high
@@ -5731,7 +5731,7 @@ CA,US,visa-free,180,high
 CA,UY,visa-free,90,high
 CA,UZ,visa-free,30,high
 CA,VA,visa-free,90,high
-CA,VC,visa-free,90,high
+CA,VC,visa-free,30,high
 CA,VE,e-visa,,disputed
 CA,VN,e-visa,90,high
 CA,VU,visa-free,120,high
@@ -7004,7 +7004,7 @@ CM,HN,visa-required,,high
 CM,HR,visa-required,,high
 CM,HT,visa-free,90,high
 CM,HU,visa-required,,high
-CM,ID,visa-required,,disputed
+CM,ID,e-visa,,high
 CM,IE,visa-required,,high
 CM,IL,visa-required,,disputed
 CM,IN,e-visa,60,high
@@ -7312,7 +7312,7 @@ CN,TZ,visa-on-arrival,90,high
 CN,UA,e-visa,30,high
 CN,UG,e-visa,90,high
 CN,US,visa-required,,high
-CN,UY,visa-free,90,disputed
+CN,UY,visa-required,,high
 CN,UZ,visa-free,30,high
 CN,VA,visa-required,,high
 CN,VC,visa-required,,high
@@ -7402,7 +7402,7 @@ CO,HT,visa-required,,high
 CO,HU,visa-free,90,high
 CO,ID,visa-free,30,high
 CO,IE,visa-required,,high
-CO,IL,visa-required,,disputed
+CO,IL,eta,90,disputed
 CO,IN,e-visa,30,high
 CO,IQ,e-visa,30,high
 CO,IR,visa-required,,high
@@ -8556,7 +8556,7 @@ DE,CU,e-visa,90,high
 DE,CV,visa-free,30,high
 DE,CY,freedom-of-movement,,high
 DE,CZ,freedom-of-movement,,high
-DE,DJ,e-visa,90,disputed
+DE,DJ,visa-on-arrival,90,high
 DE,DK,freedom-of-movement,,high
 DE,DM,visa-free,180,high
 DE,DO,visa-free,30,high
@@ -10313,7 +10313,7 @@ ER,BE,visa-required,,high
 ER,BF,e-visa,30,high
 ER,BG,visa-required,,high
 ER,BH,e-visa,14,high
-ER,BI,visa-on-arrival,,medium
+ER,BI,visa-on-arrival,30,high
 ER,BJ,visa-free,90,high
 ER,BN,visa-required,,high
 ER,BO,visa-on-arrival,90,disputed
@@ -10730,12 +10730,12 @@ ET,CM,e-visa,,high
 ET,CN,visa-required,,high
 ET,CO,e-visa,,high
 ET,CR,visa-required,,high
-ET,CU,visa-required,,high
+ET,CU,e-visa,,disputed
 ET,CV,visa-on-arrival,30,high
 ET,CY,visa-required,,high
 ET,CZ,visa-required,,high
 ET,DE,visa-required,,high
-ET,DJ,visa-free,90,disputed
+ET,DJ,visa-on-arrival,,high
 ET,DK,visa-required,,high
 ET,DM,visa-free,21,high
 ET,DO,visa-required,,high
@@ -10770,7 +10770,7 @@ ET,ID,e-visa,,high
 ET,IE,visa-required,,high
 ET,IL,visa-required,,disputed
 ET,IN,visa-required,,high
-ET,IQ,visa-on-arrival,,disputed
+ET,IQ,visa-required,,disputed
 ET,IR,e-visa,14,disputed
 ET,IS,visa-required,,high
 ET,IT,visa-required,,high
@@ -10797,7 +10797,7 @@ ET,LS,e-visa,,disputed
 ET,LT,visa-required,,high
 ET,LU,visa-required,,high
 ET,LV,visa-required,,high
-ET,LY,e-visa,,high
+ET,LY,visa-required,,disputed
 ET,MA,visa-required,,high
 ET,MC,visa-required,,high
 ET,MD,e-visa,,high
@@ -10819,7 +10819,7 @@ ET,MY,e-visa,14,high
 ET,MZ,visa-required,,disputed
 ET,NA,e-visa,,high
 ET,NE,visa-required,,high
-ET,NG,visa-on-arrival,90,disputed
+ET,NG,e-visa,,high
 ET,NI,visa-on-arrival,30,high
 ET,NL,visa-required,,high
 ET,NO,visa-required,,high
@@ -10858,7 +10858,7 @@ ET,SR,e-visa,,disputed
 ET,SS,e-visa,,high
 ET,ST,e-visa,15,high
 ET,SV,e-visa,,high
-ET,SY,e-visa,,high
+ET,SY,visa-required,,disputed
 ET,SZ,visa-required,,high
 ET,TD,e-visa,,high
 ET,TG,visa-on-arrival,15,disputed
@@ -12944,7 +12944,7 @@ GN,HN,visa-required,,high
 GN,HR,visa-required,,high
 GN,HT,visa-free,90,high
 GN,HU,visa-required,,high
-GN,ID,visa-required,,disputed
+GN,ID,e-visa,,high
 GN,IE,visa-required,,high
 GN,IL,visa-required,,disputed
 GN,IN,e-visa,60,high
@@ -15480,7 +15480,7 @@ IL,CI,e-visa,90,disputed
 IL,CL,visa-free,90,high
 IL,CM,e-visa,,high
 IL,CN,visa-required,,high
-IL,CO,e-visa,,medium
+IL,CO,visa-free,,disputed
 IL,CR,visa-free,90,high
 IL,CU,e-visa,90,high
 IL,CV,visa-on-arrival,30,high
@@ -15522,8 +15522,8 @@ IL,HU,visa-free,90,high
 IL,ID,visa-required,,disputed
 IL,IE,visa-free,90,high
 IL,IN,e-visa,30,high
-IL,IQ,e-visa,,medium
-IL,IR,visa-required,,medium
+IL,IQ,refused,,disputed
+IL,IR,refused,,disputed
 IL,IS,visa-free,90,high
 IL,IT,visa-free,90,high
 IL,JM,visa-free,90,high
@@ -15535,12 +15535,12 @@ IL,KH,visa-on-arrival,30,high
 IL,KI,visa-free,90,high
 IL,KM,visa-on-arrival,45,high
 IL,KN,eta,90,high
-IL,KP,visa-required,,medium
+IL,KP,visa-required,,high
 IL,KR,eta,90,high
 IL,KW,refused,,disputed
 IL,KZ,visa-free,30,high
 IL,LA,visa-on-arrival,30,high
-IL,LB,visa-required,,medium
+IL,LB,refused,,disputed
 IL,LC,visa-free,42,high
 IL,LI,visa-free,90,high
 IL,LK,eta,30,disputed
@@ -15578,7 +15578,7 @@ IL,NO,visa-free,90,high
 IL,NP,visa-on-arrival,90,high
 IL,NR,visa-on-arrival,,high
 IL,NZ,eta,,medium
-IL,OM,visa-required,,disputed
+IL,OM,refused,,disputed
 IL,PA,visa-free,90,high
 IL,PE,visa-free,90,high
 IL,PG,visa-on-arrival,60,high
@@ -15610,7 +15610,7 @@ IL,SR,visa-free,90,high
 IL,SS,e-visa,,high
 IL,ST,e-visa,,high
 IL,SV,visa-free,90,high
-IL,SY,visa-required,,medium
+IL,SY,refused,,disputed
 IL,SZ,visa-free,30,high
 IL,TD,e-visa,180,high
 IL,TG,e-visa,15,high
@@ -15637,7 +15637,7 @@ IL,VN,e-visa,90,high
 IL,VU,visa-free,120,high
 IL,WS,visa-on-arrival,,medium
 IL,XK,visa-free,90,high
-IL,YE,visa-required,,medium
+IL,YE,refused,,disputed
 IL,ZA,visa-free,90,high
 IL,ZM,visa-free,30,high
 IL,ZW,visa-on-arrival,30,high
@@ -18843,7 +18843,7 @@ KW,CF,visa-required,,high
 KW,CG,visa-required,,high
 KW,CH,visa-required,,high
 KW,CI,e-visa,90,disputed
-KW,CL,visa-required,,high
+KW,CL,e-visa,,disputed
 KW,CM,e-visa,,high
 KW,CN,visa-on-arrival,15,disputed
 KW,CO,e-visa,90,high
@@ -18957,7 +18957,7 @@ KW,PW,visa-on-arrival,30,high
 KW,PY,visa-required,,high
 KW,QA,visa-free,,high
 KW,RO,visa-required,,high
-KW,RS,visa-required,,high
+KW,RS,e-visa,90,disputed
 KW,RU,e-visa,30,high
 KW,RW,visa-on-arrival,30,high
 KW,SA,visa-free,,high
@@ -20720,7 +20720,7 @@ LT,MZ,visa-on-arrival,30,high
 LT,NA,visa-on-arrival,,medium
 LT,NE,visa-required,,high
 LT,NG,e-visa,90,high
-LT,NI,visa-free,90,high
+LT,NI,e-visa,,disputed
 LT,NL,visa-free,,high
 LT,NO,visa-free,,high
 LT,NP,visa-on-arrival,90,high
@@ -21443,7 +21443,7 @@ MA,FJ,visa-required,,medium
 MA,FM,visa-free,30,high
 MA,FR,visa-required,,high
 MA,GA,visa-free,90,high
-MA,GB,e-visa,,disputed
+MA,GB,visa-required,,high
 MA,GD,visa-free,90,high
 MA,GE,visa-required,,high
 MA,GH,visa-free,90,high
@@ -21490,7 +21490,7 @@ MA,LS,visa-required,,high
 MA,LT,visa-required,,high
 MA,LU,visa-required,,high
 MA,LV,visa-required,,high
-MA,LY,visa-required,,disputed
+MA,LY,e-visa,,high
 MA,MC,visa-required,,high
 MA,MD,visa-required,,disputed
 MA,ME,visa-required,,high
@@ -21539,7 +21539,7 @@ MA,SB,visa-required,,high
 MA,SC,visa-free,90,medium
 MA,SD,visa-required,,high
 MA,SE,visa-required,,high
-MA,SG,visa-required,,disputed
+MA,SG,e-visa,,high
 MA,SI,visa-required,,high
 MA,SK,visa-required,,high
 MA,SL,visa-on-arrival,30,high
@@ -21553,7 +21553,7 @@ MA,SV,visa-required,,disputed
 MA,SY,visa-free,,high
 MA,SZ,visa-required,,high
 MA,TD,e-visa,,high
-MA,TG,visa-free,30,high
+MA,TG,visa-free,90,high
 MA,TH,e-visa,,high
 MA,TJ,visa-free,14,disputed
 MA,TL,visa-on-arrival,30,high
@@ -22778,7 +22778,7 @@ ML,AM,visa-required,,high
 ML,AO,visa-required,,high
 ML,AR,visa-required,,high
 ML,AT,visa-required,,high
-ML,AU,visa-required,,disputed
+ML,AU,e-visa,,medium
 ML,AZ,visa-required,,high
 ML,BA,visa-required,,high
 ML,BB,visa-free,180,high
@@ -22953,7 +22953,7 @@ ML,TW,visa-required,,high
 ML,TZ,e-visa,,high
 ML,UA,visa-required,,medium
 ML,UG,e-visa,,high
-ML,US,refused,,disputed
+ML,US,visa-required,,medium
 ML,UY,visa-required,,high
 ML,UZ,visa-required,,high
 ML,VA,visa-required,,high
@@ -24856,7 +24856,7 @@ MY,LS,visa-free,90,high
 MY,LT,visa-free,90,high
 MY,LU,visa-free,90,high
 MY,LV,visa-free,90,high
-MY,LY,e-visa,30,high
+MY,LY,visa-free,30,disputed
 MY,MA,visa-free,90,high
 MY,MC,visa-free,90,high
 MY,MD,visa-free,90,high
@@ -24920,7 +24920,7 @@ MY,SY,visa-on-arrival,90,high
 MY,SZ,visa-free,30,high
 MY,TD,e-visa,90,high
 MY,TG,e-visa,15,high
-MY,TH,visa-free,60,high
+MY,TH,visa-free,30,high
 MY,TJ,visa-free,30,high
 MY,TL,visa-free,30,high
 MY,TM,visa-required,,high
@@ -31095,7 +31095,7 @@ SG,AO,visa-free,30,high
 SG,AR,visa-free,90,high
 SG,AT,visa-free,90,high
 SG,AU,eta,,medium
-SG,AZ,visa-on-arrival,30,high
+SG,AZ,visa-free,30,disputed
 SG,BA,visa-free,90,high
 SG,BB,visa-free,180,high
 SG,BD,visa-on-arrival,30,high
@@ -31665,7 +31665,7 @@ SK,TW,visa-free,90,high
 SK,TZ,visa-on-arrival,,high
 SK,UA,visa-free,90,high
 SK,UG,e-visa,,high
-SK,US,visa-free,90,high
+SK,US,visa-free,,high
 SK,UY,visa-free,90,high
 SK,UZ,visa-free,30,high
 SK,VA,visa-free,,high
@@ -34135,7 +34135,7 @@ TH,ID,visa-free,30,high
 TH,IE,visa-required,,high
 TH,IL,visa-required,,disputed
 TH,IN,e-visa,30,high
-TH,IQ,e-visa,30,high
+TH,IQ,visa-required,,disputed
 TH,IR,visa-free,,disputed
 TH,IS,visa-required,,high
 TH,IT,visa-required,,high
@@ -35924,10 +35924,10 @@ TW,IT,visa-free,90,high
 TW,JM,visa-required,,medium
 TW,JO,visa-on-arrival,,high
 TW,JP,visa-free,90,high
-TW,KE,refused,,disputed
+TW,KE,eta,,medium
 TW,KG,e-visa,,high
 TW,KH,visa-on-arrival,30,high
-TW,KI,visa-required,,high
+TW,KI,refused,,disputed
 TW,KM,visa-on-arrival,45,high
 TW,KN,eta,90,high
 TW,KP,visa-required,,high
@@ -35938,7 +35938,7 @@ TW,LA,visa-on-arrival,30,high
 TW,LB,visa-required,,high
 TW,LC,visa-free,42,high
 TW,LI,visa-free,90,high
-TW,LK,visa-on-arrival,60,high
+TW,LK,visa-required,,disputed
 TW,LR,e-visa,,high
 TW,LS,e-visa,,disputed
 TW,LT,visa-free,90,high
@@ -35971,7 +35971,7 @@ TW,NI,e-visa,,disputed
 TW,NL,visa-free,90,high
 TW,NO,visa-free,90,high
 TW,NP,visa-on-arrival,30,high
-TW,NR,visa-on-arrival,90,high
+TW,NR,visa-required,,disputed
 TW,NZ,eta,,medium
 TW,OM,visa-free,14,disputed
 TW,PA,visa-free,90,high
@@ -36026,7 +36026,7 @@ TW,UY,visa-required,,high
 TW,UZ,e-visa,,disputed
 TW,VA,visa-free,90,high
 TW,VC,visa-free,180,high
-TW,VE,e-visa,,disputed
+TW,VE,refused,,disputed
 TW,VN,e-visa,30,high
 TW,VU,visa-free,30,high
 TW,WS,visa-free,60,disputed
@@ -36239,7 +36239,7 @@ UA,AF,e-visa,30,disputed
 UA,AG,visa-free,180,high
 UA,AL,visa-free,90,high
 UA,AM,visa-free,180,high
-UA,AO,visa-required,,high
+UA,AO,e-visa,,disputed
 UA,AR,visa-free,90,high
 UA,AT,visa-free,90,high
 UA,AU,e-visa,,medium
@@ -36254,7 +36254,7 @@ UA,BH,visa-on-arrival,14,high
 UA,BI,visa-on-arrival,30,high
 UA,BJ,e-visa,30,high
 UA,BN,visa-free,30,high
-UA,BO,e-visa,,medium
+UA,BO,visa-required,,disputed
 UA,BR,visa-free,90,high
 UA,BS,e-visa,90,high
 UA,BT,e-visa,90,high
@@ -36293,7 +36293,7 @@ UA,FJ,visa-free,120,high
 UA,FM,visa-free,30,high
 UA,FR,visa-free,90,high
 UA,GA,e-visa,90,high
-UA,GB,visa-required,,high
+UA,GB,e-visa,,disputed
 UA,GD,visa-free,90,high
 UA,GE,visa-free,365,high
 UA,GH,e-visa,90,disputed
@@ -36380,13 +36380,13 @@ UA,PS,visa-free,,medium
 UA,PT,visa-free,90,high
 UA,PW,visa-on-arrival,30,high
 UA,PY,visa-free,90,high
-UA,QA,visa-free,90,disputed
+UA,QA,visa-on-arrival,90,high
 UA,RO,visa-free,90,high
 UA,RS,visa-free,90,high
 UA,RU,visa-free,90,high
 UA,RW,visa-on-arrival,30,high
 UA,SA,visa-on-arrival,90,high
-UA,SB,visa-required,,high
+UA,SB,e-visa,,disputed
 UA,SC,visa-free,90,medium
 UA,SD,visa-required,,high
 UA,SE,visa-free,90,high
